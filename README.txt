@@ -1,0 +1,1 @@
+Tgei duess jeu scriver cheu? Jeu emprovel ora empau - quei sei era gia. 

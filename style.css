@@ -2,6 +2,7 @@
 
 body {
     font-family: 'Comfortaa', cursive;
+    background: conic-gradient(from .5turn at bottom center, lightblue, white)
 }
 
 .container {
@@ -12,7 +13,18 @@ body {
     margin: auto;
 }
 
-.block {
-    border: 1px solid red;
+.block-einfuehrung {
     text-align: center;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.block-main {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+ul {
+    padding-left: 30px;
 }

@@ -6,7 +6,7 @@ body {
 }
 
 .container {
-    border: 1px solid black;
+    /*border: 1px solid black;*/
 
     width: 95%;
     height: 80vh;
@@ -16,14 +16,28 @@ body {
 .block-einfuehrung {
     text-align: center;
     padding: 10px;
-    background-color: rgba(255, 255, 255, 0.6);
+    margin-top: 3.5%;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 17px 17px 0 0;
 }
 
-.block-main {
+.block-main, .block-changelog {
     text-align: center;
     padding: 10px;
     background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 0 0 17px 17px;
 }
+
+.block-changelog h5{
+    border: 1px solid black;
+    margin: 0;
+}
+
+
+.block-changelog {
+    font-size: 0.8rem;
+}
+
 
 ul {
     padding-left: 30px;
